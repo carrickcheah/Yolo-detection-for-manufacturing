@@ -10,7 +10,7 @@ Real-time object counting system for industrial conveyor belts using YOLOv11 and
 - **Persistent Tracking** - ByteTrack multi-object tracking with ID persistence
 - **Line Crossing Counter** - Counts objects crossing a configurable boundary line
 - **Cloud Training** - One-command training pipeline on Modal (H100 GPU)
-- **Auto-labeling** - Zero-shot labeling with YOLO-World
+- **Auto-labeling** - Zero-shot labeling with YOLO-World.
 
 ## Architecture
 
