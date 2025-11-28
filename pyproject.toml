@@ -1,0 +1,17 @@
+[project]
+name = "box-counter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "clip",
+    "lap>=0.5.12",
+    "modal>=1.2.4",
+    "opencv-python>=4.12.0.88",
+    "shapely>=2.1.2",
+    "ultralytics>=8.3.232",
+]
+
+[tool.uv.sources]
+clip = { git = "https://github.com/ultralytics/CLIP.git" }

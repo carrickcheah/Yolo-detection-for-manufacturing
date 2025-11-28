@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Project specific
+data/videos/*.mp4
+models/*.pt
+*.log
+
+# Keep directory structure
+!data/images/.gitkeep
+!data/labels/.gitkeep
+!data/videos/.gitkeep
+!models/.gitkeep
